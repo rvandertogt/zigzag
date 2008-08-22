@@ -21,3 +21,7 @@ On the remote machine we need to send the desired message to the local machine. 
 {{{ remote:~$ sudo echo "hello" | nc -p 1153 localIPAddress 14141 }}}
 
 All ready? If so, execute local2's command first, followed by remote's command. Hopefully you will see "hello" appear in local1's window. You have just successfully punched a tcp hole.
+
+= Notes =
+
+A similar tutorial exists for UDP hole punching [http://www.heise-online.co.uk/security/How-Skype-Co-get-round-firewalls--/features/82481/1 here]
